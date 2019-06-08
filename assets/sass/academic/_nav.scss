@@ -3,11 +3,11 @@
  **************************************************/
 
 .navbar {
-  min-height: 70px !important;
+  min-height: 70px;
 }
 
 .navbar-light {
-  background: $sta-menu-primary !important;
+  background: $sta-menu-primary;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -125,7 +125,7 @@ nav#navbar-main li.nav-item {
 
 @media screen and (max-width: 1200px) {
   .navbar {
-    min-height: 50px !important;
+    min-height: 50px;
   }
 
   .navbar-brand,
